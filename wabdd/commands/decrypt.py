@@ -242,7 +242,7 @@ def cmd_decrypt_dump(obj, folder, output, threads):
     # Check for correct dump structure
     paths_to_check = [
         "Databases",
-        "Backups",
+        #"Backups",
         # "Media", # Not necessary if user has no media
         # "metadata.json",
     ]
