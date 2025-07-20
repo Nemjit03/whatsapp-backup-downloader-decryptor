@@ -2,6 +2,8 @@
 
 [![PyPI - Version](https://img.shields.io/pypi/v/wabdd?color=green)](https://pypi.org/project/wabdd)
 
+## This version only downloads the msgstore.db file, so it excludes media and backgrounds
+
 ## Prerequisites
 
 - End-to-end encrypted backups on Google Drive
