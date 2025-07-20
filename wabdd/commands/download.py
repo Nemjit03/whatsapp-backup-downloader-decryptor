@@ -459,9 +459,11 @@ def download(
         files = []
         debug_files = []
         for file in wa.backup_files(backup):
+            if "msgstore" not in file.get("name"):
+                continue
             if save_files_list:
                 debug_files.append(file)
-
+                
             files.append(
                 {
                     "path": file.get("name"),
